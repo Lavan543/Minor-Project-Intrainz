@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.calculator {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.display {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #ddd;
+}
